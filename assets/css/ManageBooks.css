@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 18% 82%;
+  height: 100vh;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #272c4a;
+  padding: 20px 0;
+}
+
+aside .logo {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+}
+
+aside ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+  height: 10vh;
+}
+
+aside ul li a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  color: #818181;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+aside ul li a i {
+  margin-right: 10px;
+}
+
+aside ul li a:hover {
+  background-color: #1b203d;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  background-color: #1b203d;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+main header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+main header h2 {
+  font-size: 18px;
+  color: #fff;
+}
+
+main header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+main header ul li {
+  display: flex;
+  list-style: none;
+}
+
+main header ul li a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+main section table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+main section table thead {
+  background-color: #272c4a;
+}
+
+main section table th {
+  padding: 5px 8px;
+  border: 1px solid #272c4a;
+}
+
+main section table td {
+  padding: 5px 8px;
+  border: 1px solid #272c4a;
+}
+
+main section table td img {
+  height: 12vh;
+  vertical-align: middle;
+}
+
+main section tbody td .button {
+  display: flex;
+  flex-direction: column;
+  height: 10.5vh;
+  justify-content: space-between;
+}
+
+main section tbody td .button a {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+main section tbody td .button a:first-child {
+  background-color: #3498db;
+  border-radius: 2px;
+
+}
+
+main section tbody td .button a:last-child {
+  background-color: #e74c3c;
+  border-radius: 2px;
+}
+
+main section .container-table {
+  display: flex;
+  flex-direction: column;
+}
+
+main section .container-table a:last-child {
+  background-color: #4caf50;
+  padding: 5px 10px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 14px;
+}

@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 18% 82%;
+  height: 100vh;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #272c4a;
+  padding: 20px 0;
+}
+
+aside .logo {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+}
+
+aside ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+  height: 10vh;
+}
+
+aside ul li a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  color: #818181;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+aside ul li a i {
+  margin-right: 10px;
+}
+
+aside ul li a:hover {
+  background-color: #1b203d;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  background-color: #1b203d;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+main header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+main header h2 {
+  font-size: 18px;
+  color: #fff;
+}
+
+main header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+main header ul li {
+  display: flex;
+  list-style: none;
+}
+
+main header ul li a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+section .container-form form .container-input {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60vh, 1fr));
+  gap: 2vh;
+}
+
+section .container-form form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+section .container-form form .container-input div {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+section .container-form form .font {
+  display: flex;
+  flex-direction: column;
+  background-color: #272c4a;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  height: 20vh;
+  color: white;
+}
+
+section .container-form form .container-input .font {
+  display: flex;
+  flex-direction: column;
+  background-color: #272c4a;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  height: 15vh;
+  color: white;
+}
+
+section .container-form form .container-input .font input {
+  display: flex;
+  background: none;
+  font-size: 15px;
+  color: white;
+  height: 100%;
+  border: none;
+  font-size: 15px;
+}
+
+section .container-form form .container-input .font label {
+  margin-bottom: 10px;
+}
+
+section .container-form form .container-input .font input:focus {
+  outline: none;
+}
+
+section .container-form form .font input::-webkit-file-upload-button {
+  background-color: #4caf50;
+  padding: 2% 10%;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin-right: 10px;
+  font-size: 15px;
+  margin: 10px 10px 10px 0;
+}
+
+section
+  .container-form
+  form
+  .container-input
+  .font
+  input::-webkit-inner-spin-button {
+  display: none;
+}
+
+section .container-form form .font textarea {
+  resize: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 0;
+}
+
+section .container-form form .font textarea:focus {
+  outline: none;
+}
+
+section .container-form form .container-input .font select {
+  background: none;
+  border: none;
+  padding: 5px 0;
+  height: 100%;
+  font-size: 15px;
+  color: white;
+}
+
+section .container-form form .container-input .font select:focus {
+  outline: none;
+  color: white;
+  background-color: #272c4a;
+}
+
+section .container-form form button {
+  padding: 8px 0;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
